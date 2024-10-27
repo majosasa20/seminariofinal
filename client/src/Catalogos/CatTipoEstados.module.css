@@ -1,0 +1,53 @@
+/* .CatCargo {
+     text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-top: 15%; 
+  } */
+  
+/* body {
+    height: 100vh; 
+    margin: 5%; 
+  } */
+  .separacion {
+    height: 20px; /* Espacio de 30px en la parte superior */
+  } 
+
+  .ventana {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; /* Ajustar la ventana para que ocupe el 100% de la altura visible */
+}
+
+/* Formulario con margen de 30px desde la ventana */
+.formulario {
+  width: 98%;
+  height: 80%;
+  align-items: center;
+  background-color: rgba(152, 152, 152, 0.273);
+  padding: 20px; /* Añadir padding para separar el contenido del borde del formulario */
+  border: solid 2px;
+  margin: auto;
+  /* margin-top: 20%; */
+}
+
+/* Botones con margen respecto al formulario */
+.botones {
+  margin-top: 15px; 
+}
+
+.titulo{
+  text-align: center;
+}
+
+.tablaregistros{
+  border: '1px solid #ddd';
+  padding: '10px'
+}
+
+.selectedRow {
+  background-color: #ff0000 !important;
+}
+

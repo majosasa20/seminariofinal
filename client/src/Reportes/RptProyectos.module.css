@@ -1,0 +1,35 @@
+.tabla{
+    width: 95%;
+    align-items: center;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+
+/* Aplica estilos al fondo y color de las celdas dentro de la tabla */
+.table {
+    border: 3px inset black;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 0.1px solid rgb(0, 113, 136); /* Aplica el borde tanto a filas como a columnas */
+    padding: 8px; /* Opcional, para añadir un poco de espacio interno */
+    text-align: left; /* Alineación del texto */
+}
+
+.table thead th {
+    background-color: rgba(0, 123, 255, 0.814) ;
+    color: black ;
+}
+
+.table tbody td {
+    background-color: rgba(0, 106, 255, 0.232);
+    color: black ;
+}
+
+.titulo{
+    text-align: center;
+}
+
+  

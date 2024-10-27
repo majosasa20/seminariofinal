@@ -1,0 +1,112 @@
+.inicioContainer {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  background: url('../Recursos/img/image.png') center/cover no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+.ctaButton {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+  background-color: #218838;
+}
+
+.aboutSection {
+  padding: 40px 20px;
+  background: #fffaef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContent {
+  max-width: 800px;
+  text-align: center;
+}
+
+.teamImage {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.servicesSection {
+  padding: 40px 20px;
+  background: #e1e9f1;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+ h2 {
+  text-align: center;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+.serviceCard {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+.projectsSection {
+  padding: 40px 20px;
+  background: #fffaef;
+}
+
+.projectsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.projectCard {
+  background: #d7f3db;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #343a40;
+  color: white;
+}

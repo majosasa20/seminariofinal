@@ -1,0 +1,33 @@
+.formulario {
+    width: 80%;
+    align-items: center;
+    background-color: rgba(152, 152, 152, 0.273);
+    padding: 20px; /* Añadir padding para separar el contenido del borde del formulario */
+    border: solid 2px;
+    margin: auto;
+    /* margin-top: 20%; */
+  }
+  
+  .separacion {
+    height: 70px; /* Espacio de 30px en la parte superior */
+  } 
+  
+  .ventana {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; /* Ajustar la ventana para que ocupe el 100% de la altura visible */
+  }
+
+.list {
+    max-height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ddd; 
+    padding: 5px;
+    font-size: 13px;
+  }
+
+.titulo{
+  text-align: center;
+}
+  

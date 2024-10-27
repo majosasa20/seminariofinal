@@ -1,0 +1,31 @@
+/* Estilos generales */
+body {
+    height: 100vh;
+    margin: 0; /* Asegúrate de que el margen sea cero para ocupar toda la altura */
+}
+
+/* Estilos por ventana */
+.catalogo {
+    background-color: rgba(0, 221, 255, 0.084);
+    height: 100vh; /* Asegúrate de que ocupe toda la altura */
+}
+
+.reporte {
+    background-color: white;
+    height: 100vh; /* Asegúrate de que ocupe toda la altura */
+}
+
+.operaciones {
+    background-color: rgba(255, 183, 0, 0.173);
+    height: 100vh; /* Asegúrate de que ocupe toda la altura */
+}
+
+.login {
+    background-color: rgb(234, 240, 242);
+    height: 100vh; 
+}
+
+.configuracion {
+    background-color: rgba(0, 255, 98, 0.173);
+    height: 100vh; /* Asegúrate de que ocupe toda la altura */
+}
